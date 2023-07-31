@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    background-color: rgb(25, 117, 25);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-avaliacao {
+    color: white;
+    font-size: 16px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    background-color: rgb(20, 20, 20);
+    margin: 0px 8px 8px;
+    padding: 16px 29px;
+    border-radius: 4px;
+    border: none;
+}
+
+.button-avaliacao:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.email {
+    background-color: white;
+    margin: 8px 8px 8px;
+    padding: 16px 80px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.img-logo {
+    display: flex;
+    width: 111px;
+    height: 32px;
+    margin: auto;
+    display: block;
+}
+
+.img {
+    margin: auto;
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    gap: 20px;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img-logo {
+    padding: 30px;
+    margin-top: 0px;
+}
+
+.slogan {
+    font: 46px;
+    letter-spacing: normal;
+    font-size: 46px;
+}
+
+h3 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+h4 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.CEO {
+    text-align: center;
+    margin: 20px 15px;
+    margin-top: 50px;
+}
+
+.button-2 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    background-color: rgb(25, 117, 25);
+    border-radius: 4px;
+    border: none;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px;
+    margin-right: 380px;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+
+.button-2:hover {
+    background-color: rgb(7, 68, 26);
+    color: white;
+}
+
+.logomarcas {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    border-top: 1px solid rgb(199, 196, 196);
+    border-bottom: 1px solid rgb(199, 196, 196);
+    padding: 16px 29px;
+}
+
+.marcas {
+    width: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.logomarcas img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item img {
+    width: 48px;
+    height: 48px;
+}
+
+.card-item h3 {
+    margin: 0;
+    padding: 0;
+    color: rgb(7, 7, 7);
+    margin: 24px 0 8px;
+}
+
+.card-item p {
+    font-size: 16px;
+    color: rgb(31, 31, 31);
+}
+
+.bottom-cta {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align-last: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    padding-left: 20%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid rgb(199, 196, 196);
+  }
+  
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.footer {
+    margin: 30px;
+    text-align: right;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(25, 117, 25);
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+a:hover {
+    color: rgb(7, 68, 26)
+}
